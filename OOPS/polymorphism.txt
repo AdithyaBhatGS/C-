@@ -1,0 +1,34 @@
+Polymorphism:
+Poly-->many
+Morph-->forms
+
+Polymorphism means using same thing for multiple jobs
+or multiple issues
+
+Ex:
+1)Same laptop being used both for Work and Home
+2)Using same cricket bat for Odi,T20 and Tests
+
+In Polymorphism we have 2 types:
+1)Runtime Polymorphism
+2)Compile time Polymorphism
+
+1)Compile time Polymorphism:
+
+Again it has 2 types :
+
+a)Method Overloading:
+2 or more methods having same name but differ in number of parameters or in type of parameters or both.
+
+b)Operator Overloading:
+An Operator when Overloaded can be used to perform certain tasks according to our requirement
+
+Syntax:
+    return_type operator op (class_name &obj){
+
+    }
+
+2)Runtime Polymorphism:
+
+a)Method OverRiding:
+Whenever we have same method name with same parameters(both type and number) then,if child class wishesh it can redefine the job of the method so that preference would be given to child class method

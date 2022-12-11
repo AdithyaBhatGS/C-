@@ -1,0 +1,61 @@
+Vectors:
+
+*A container that holds multiple elements of same type
+*Implementation-Dynamic Array
+*Sequential container
+*Advantages:
+    1)Good for accessing the elements from the middle
+    -->container[i]
+    2)Good inorder to insert the elements from the end
+    3)Elements are arranged in contiguous memory blocks
+*Disadvantages:
+    1)Cannot insert the elements from the front
+    2)If we want to insert/delete the element in the middle,its very slow
+    Reason:If you want to insert at the front for example now you want to move all the elements by 1 pos and then insert the element.
+
+*Deque:
+
+*A deque is a container 
+*It is implemented using double ended queue(internally vector of vectors).
+*Sequential container
+
+*Advantages:
+    1)Can insert the elements both at front and end 
+    2)Good to access random elements 
+    -->container[i]
+*Disadvantages:
+    1)There is no guarantee of contiguous memory allocation for elements.
+    Means at first memory will be divided into blocks and the within each block elements can be contiguously arranged.
+    2)But sometimes it can be slower than vector(in rare cases)
+    3)If we want to insert/delete the element in the middle,its very slow
+
+*list:
+
+*A list is a container 
+*Implementation-It is an implementation of doubly linked list
+
+*Advantages:
+    1)When we want to insert/delete the elements from the random positions the list will have an edge over vectors and deque 
+    
+    Because here since its a list implementation , if we want to add the elements it will be added just by inserting a node.
+
+    We don't want to move other elements.
+*Disadvantages:
+    1)Elements are not contiguously arranged 
+    2)Also its very slow compared to vectors and deque 
+    3)Elements are always accessed linearly one after the other not randomly.
+        Means if you want to access 5th element you cannot access it directly,you need to go from
+        begin() or end() so it will take 0(i) time to access an element where i indicates the ith value 
+        in the list
+    4)Also it will consume some amount of memory for storing the address of previous and next location
+
+When to use which container:
+
+Vector:
+*Preffered in most of the cases where we need to perform insertions at the end and access is random or iterative
+
+Deque:
+*It should be Preffered over vectors only when you need to insert both at front and back
+
+List:
+*Should be preffered while handling large amount of data and performing random insertions/deletions is important
