@@ -21,11 +21,11 @@
    - [LinearSearch](https://github.com/AdithyaBhatGS/Cpp/blob/master/Algorithms/linearSearch.cpp)
    - [SelectionSort](https://github.com/AdithyaBhatGS/Cpp/blob/master/Algorithms/selectionSort.cpp)
 2. Arrays <br /> 
-C++ stl <br />
-Conditional-statements <br />
-Functions <br />
-Loops <br />
-Oops <br />
-Operators <br />
-Pointers <br />
+3. C++ stl <br />
+4. Conditional-statements <br />
+5. Functions <br />
+6. Loops <br />
+7. Oops <br />
+8. Operators <br />
+9. Pointers <br />
 
