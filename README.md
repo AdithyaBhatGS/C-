@@ -78,6 +78,16 @@
    - [Pointers to Derived Class](https://github.com/AdithyaBhatGS/Cpp/blob/master/OOPS/pointers_to_Derived_Class.cpp)
    - [Polymorphism Notes](https://github.com/AdithyaBhatGS/Cpp/blob/master/OOPS/polymorphism.txt)
    - [Shallow Copy](https://github.com/AdithyaBhatGS/Cpp/blob/master/OOPS/shallow_Copy.cpp)
+   - [Single Inheritance](https://github.com/AdithyaBhatGS/Cpp/blob/master/OOPS/single_Inheritance.cpp)
+   - [Singleton Class](https://github.com/AdithyaBhatGS/Cpp/blob/master/OOPS/singletonClass.cpp)
+   - [Static Variable1-](https://github.com/AdithyaBhatGS/Cpp/blob/master/OOPS/static1.cpp)
+   - [Static Variable-2](https://github.com/AdithyaBhatGS/Cpp/blob/master/OOPS/static2.cpp)
+   - [Static Objects](https://github.com/AdithyaBhatGS/Cpp/blob/master/OOPS/static3.cpp)
+   - [Static Member Function](https://github.com/AdithyaBhatGS/Cpp/blob/master/OOPS/static4.cpp)
+   - [this Keyword](https://github.com/AdithyaBhatGS/Cpp/blob/master/OOPS/this.cpp)
+   - [Virtual Base Class](https://github.com/AdithyaBhatGS/Cpp/blob/master/OOPS/virtualBaseClass.cpp)
+   - [Virtual Destructors](https://github.com/AdithyaBhatGS/Cpp/blob/master/OOPS/virtualDestructor.cpp)
+   - [Virtual Functions](https://github.com/AdithyaBhatGS/Cpp/blob/master/OOPS/virtualFunctions.cpp)
 
 8.Operators <br />
   - [Operators](https://github.com/AdithyaBhatGS/Cpp/tree/master/Operators)
