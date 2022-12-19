@@ -2,7 +2,7 @@
 
 ## This repo contains concepts of CPP(including STL)
 
-### Includes:
+### Contents:
 
 1.Algorithms <br />
   - [BinarySearch](https://github.com/AdithyaBhatGS/Cpp/blob/master/Algorithms/binarySearch.cpp) <br />
