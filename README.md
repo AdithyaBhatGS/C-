@@ -12,6 +12,7 @@
   - [SelectionSort](https://github.com/AdithyaBhatGS/Cpp/blob/master/Algorithms/selectionSort.cpp) <br />
 
 2.Arrays <br />
+  - [Arrays](https://github.com/AdithyaBhatGS/Cpp/tree/master/Arrays)
 
 3.C++ Standard Template Library <br />
    - [Array](https://github.com/AdithyaBhatGS/Cpp/blob/master/C%2B%2B_STL/array.cpp) <br />
@@ -79,6 +80,8 @@
    - [Shallow Copy](https://github.com/AdithyaBhatGS/Cpp/blob/master/OOPS/shallow_Copy.cpp)
 
 8.Operators <br />
-9.Pointers <br />
+  - [Operators](https://github.com/AdithyaBhatGS/Cpp/tree/master/Operators)
 
+9.Pointers <br />
+  - [Pointers](https://github.com/AdithyaBhatGS/Cpp/tree/master/Pointers)
 
