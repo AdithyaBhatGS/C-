@@ -28,9 +28,15 @@ Now if you have created a pointer in an object then when you copy that object to
 
 So when you change the value in one object anothers will also get impacted.
 
+Also another issue with shallow copy is that when you destroy an object then the pointer of that object also gets destroyed hence the address it points will also be released.
+
+But since there is another object that is still pointing to the same address which does not exist or not valid it results it "Dangling pointer".
+
 Deep copy:
 
 In deep copy we can avoid this by creating our own copy constructor.
+
+
 
 */
 
@@ -62,6 +68,9 @@ class sample{
             p=new int;
             *p=*(obj.p);
         }
+        ~sample(){
+            delete p;
+        }
 };
 int main(){
     sample s1;  
@@ -72,5 +81,7 @@ int main(){
     s2.setData(10,19,122);
     cout<<"After shallow copy:";
     s1.showData();
+    s1.~sample();
+    s2.~sample();
     return 0;
 }
