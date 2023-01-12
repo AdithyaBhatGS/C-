@@ -1,8 +1,16 @@
 /* Static variables inside a function
-1)Static variables are always declared in the "Data Segment" of
-the segment of the memory layout.
-2)Once they are created they are destroyed only at the end of the
-execution
+Value in static variable will be preserved even after the function call ends
+
+f(){
+    static a=10;
+    a++;
+}
+value of  a=11;
+f(){
+    a++;
+}
+value of a=12 not 11
+
 ->So if we have used a normal variable here we would have got 0 ,5 times,but since this is a static variable we can see that values have
 not changed */
 #include<iostream>
