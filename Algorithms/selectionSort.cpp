@@ -1,3 +1,8 @@
+// Space complexity:O(1)
+
+// Time complexity:
+// Best Case:O(N^2) Worst Case:N(N^2)
+
 #include<bits/stdc++.h>
 using namespace std;
 void print_array(int arr[],int n){

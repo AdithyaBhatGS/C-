@@ -50,6 +50,7 @@ class sample{
     public:
         sample(){
             p=new int();
+            cout<<"Hello"<<endl;
         }
         // Normal object's data members are assigned here
         void setData(int a,int b,int c){
@@ -59,6 +60,7 @@ class sample{
         }
         void showData(){
             cout<<x<<" "<<y<<" "<<*p<<endl;
+            cout<<p<<endl;
         }
         // Object being created using copy constructor will be assigned here
         sample(sample& obj){
@@ -76,11 +78,13 @@ int main(){
     sample s1;  
     s1.setData(10,19,100);
     cout<<"Before shallow copy:";
-    s1.showData();  
+    s1.showData(); 
     sample s2=s1;
-    s2.setData(10,19,122);
+    s2.setData(101,199,122);
+    s2.showData();
     cout<<"After shallow copy:";
     s1.showData();
+
     s1.~sample();
     s2.~sample();
     return 0;

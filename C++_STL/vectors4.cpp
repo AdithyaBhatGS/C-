@@ -5,12 +5,12 @@ Here it simply means that array is a container in which each element is a vector
 vector<int> a[10]
 It simply means you're creating 10 vectors in array named arr
 
-rows->elements of vector(here each element is an int)
-columns->elements of array(here each element is a vector)
+rows->elements of array(here each element is a vector)
+columns->elements of array(here each element is a int)
 
 So always remember that array of vectors means ,array can have fixed number of vectors but each vectors is dynamic means resizable
 
-Means horizontally resizable/dynamic but vertically fixed
+Means >horizontally resizable but vertically fixed
 
 You need to declare the size of the array else it will be invalid;
 

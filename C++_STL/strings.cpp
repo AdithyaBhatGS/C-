@@ -58,5 +58,9 @@ int main(){
     //end()->returns an iterator pointing to the end of a string
     cout<<*(it1-1)<<endl;
 
+    // We can also perform string comparision through ==
+    str1="Hello";
+    str2="hello";
+    str1==str2 ? cout<<"Equal":cout<<"Not equal";
     return 0;
 }

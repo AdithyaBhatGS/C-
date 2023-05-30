@@ -1,0 +1,5 @@
+>> To load all header files : #include<bits/stdc++.h>
+
+>> Integer range 
+    -10^9 < int < 10^9
+    -10^12 < long int < 10^12

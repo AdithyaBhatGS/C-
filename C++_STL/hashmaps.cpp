@@ -13,11 +13,6 @@ int main(){
     m["Chennai"]=11;
     m["Bengaluru"]=12;
     m["Hyderabad"]=13;
-    
-    // insert method
-    m.insert({"Mysuru",141});
-    m.insert({"Raichur",200});
-
 
     //To check the size
     cout<<m.size()<<endl;
@@ -43,9 +38,5 @@ int main(){
         cout<<"Present!"<<endl;
     else 
         cout<<"Not Present!"<<endl;
-    
-    unordered_map<int, int> mp;
- 
-    
     return 0;
 }
