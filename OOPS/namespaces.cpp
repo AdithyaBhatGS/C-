@@ -23,6 +23,7 @@ namespace A{
     int xyz(int x){
         return pow(x,1);
     }
+    int name;
 }
 
 namespace B{
@@ -30,6 +31,7 @@ namespace B{
     double xyz(int x){
         return pow(x,2);
     }
+    int name;
 }
 
 int main(){
@@ -49,5 +51,8 @@ int main(){
     // printing values to console
     cout<<a<<" "<<b<<endl;
     
+    // int c=A::name;
+    // c=B::name;
+    // c=name;  error 
     return 0;
 }

@@ -1,0 +1,16 @@
+>>In cpp we have 4 storage classes and each of them have 2 characteristics
+a)scope/visibility
+b)lifetime/duration:
+
+1)auto:
+
+By default all the variables are auto.
+Local scope 
+Lifetime until function ends.
+
+2)register:
+
+They are stored in cpu registers
+
+Speed up program execution
+Local scope and lifetime until function ends.

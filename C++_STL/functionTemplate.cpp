@@ -36,7 +36,7 @@ double max_of_2(double a,double b){
 }*/
 
 // T will be replaced by the type of value int,float,double,class,struct or any...
-template<class T>
+template<typename T>
 T max_of_2(T a,T b){
     if(a>b)
         return a;
