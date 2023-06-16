@@ -36,8 +36,8 @@ double max_of_2(double a,double b){
 }*/
 
 // T will be replaced by the type of value int,float,double,class,struct or any...
-template<typename T>
-T max_of_2(T a,T b){
+template<typename T1,typename T2,typename T3>
+T3 max_of_2(T1 a,T2 b){
     if(a>b)
         return a;
     return b;
@@ -49,9 +49,9 @@ int main(){
     float res2;
     double res3;
 
-    res1=max_of_2(2,3);
-    res2=max_of_2(2.33f,23.8891f);
-    res3=max_of_2(2.33,8.77);
+    // explicitly specifying parameter type
+    res1=max_of_2<int,int,int>(2,3);
+    res2=max_of_2<float,double,double>(2.33f,23.8891f);
 
-    cout<<res1<<" "<<res2<<" "<<res3<<endl;
+    cout<<res1<<" "<<res2<<" "<<endl;
 }

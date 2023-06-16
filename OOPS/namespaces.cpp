@@ -2,6 +2,8 @@
 
 // why we need namespaces?
 
+// used for resolving naming conflicts
+
 // let's say we have 2 libraries named libA and libB ,both of them have same function xyz()
 
 // Now when you want to use function xyz() how can compiler determine the function
