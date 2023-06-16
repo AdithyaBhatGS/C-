@@ -17,6 +17,8 @@
 3.C++ Standard Template Library <br />
    - [Array](https://github.com/AdithyaBhatGS/Cpp/blob/master/C%2B%2B_STL/array.cpp) <br />
    - [Deque](https://github.com/AdithyaBhatGS/Cpp/blob/master/C%2B%2B_STL/deque.cpp) <br />
+   - [Function Templates-1](https://github.com/AdithyaBhatGS/Cpp/blob/master/C%2B%2B_STL/functionTemplate1.cpp)
+   - [Function Templates-1](https://github.com/AdithyaBhatGS/Cpp/blob/master/C%2B%2B_STL/functionTemplate2.cpp)
    - [HashMaps](https://github.com/AdithyaBhatGS/Cpp/blob/master/C%2B%2B_STL/hashmaps.cpp) <br />
    - [Lists](https://github.com/AdithyaBhatGS/Cpp/blob/master/C%2B%2B_STL/list.cpp) <br />
    - [Pairs](https://github.com/AdithyaBhatGS/Cpp/blob/master/C%2B%2B_STL/pair.cpp) <br />
